@@ -3,9 +3,11 @@
 
 AFieldTestFirearmShootingWeapon::AFieldTestFirearmShootingWeapon()
 {
+	PrimaryActorTick.bStartWithTickEnabled = false;
+
 	LeftHandGrip = CreateDefaultSubobject<USceneComponent>(TEXT("LeftHandGrip"));
 	LeftHandGrip->SetupAttachment(WeaponMesh);
 
-	ADSAnchor = CreateDefaultSubobject<USceneComponent>(TEXT("ADSAnchor"));
-	ADSAnchor->SetupAttachment(WeaponMesh);
+	WeaponADSAnchor = CreateDefaultSubobject<USceneComponent>(TEXT("WeaponADSAnchor"));
+	WeaponADSAnchor->SetupAttachment(WeaponMesh);
 }
