@@ -1,8 +1,8 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 #include "FieldTestGameMode.h"
-#include "FieldTestHUD.h"
-#include "FieldTestCharacter.h"
+#include "../FieldTestHUD.h"
+#include "../Characters/FieldTestCharacter.h"
 #include "UObject/ConstructorHelpers.h"
 
 AFieldTestGameMode::AFieldTestGameMode()

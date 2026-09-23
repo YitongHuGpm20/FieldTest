@@ -1,7 +1,7 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 #include "FieldTestCharacter.h"
-#include "FieldTestProjectile.h"
+#include "../Weapons/FieldTestProjectile.h"
 #include "Animation/AnimInstance.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
